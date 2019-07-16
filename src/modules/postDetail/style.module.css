@@ -1,0 +1,54 @@
+.main {
+	width: 50%;
+	margin: auto;
+	position: relative;
+}
+
+.title {
+	font-size: 45px;
+}
+
+.date {
+	margin-top: 10px;
+	font-size: 12px;
+	border-bottom: 0.2px solid #dcdcdc;
+	padding-bottom: 15px;
+}
+
+.content {
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.picture {
+	/*height is creating the borderline around the image*/
+	height: 500px;
+	width: 100%;
+	object-fit: contain;
+	margin-bottom: 40px;
+	border: 0;
+}
+
+.commentField p {
+	font-size: 15px;
+}
+.commentField {
+	margin-top: 20px;
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
+
+.input {
+	padding: 10px 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+}
+
+.submitBtn {
+	margin-top: 5px;
+	font-size: 15px;
+	float: right;
+}

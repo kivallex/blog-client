@@ -1,0 +1,27 @@
+.main {
+	width: 65%;
+	margin: auto;
+}
+
+.passwordField {
+	margin-top: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+}
+
+.loginBtn {
+	margin-top: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.input {
+	padding: 10px 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	-webkit-text-security: disc;
+}

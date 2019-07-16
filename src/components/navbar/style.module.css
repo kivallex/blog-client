@@ -1,0 +1,81 @@
+.main {
+	width: 80%;
+	margin: auto;
+	padding-top: 5vh;
+}
+
+.navbarIcon {
+	background-color: #444;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	transition: opacity 0.2s cubic-bezier(0.8, 0, 0.2, 1);
+	/* background-image: url('logo-1.png'); */
+	/* background: url('logo-1.png'); */
+}
+
+.navbarIcon:hover {
+	opacity: 0.5;
+}
+
+.navbarIcon > * {
+	color: white;
+}
+
+.bg {
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: transparent;
+	z-index: 999;
+}
+
+.bg.active {
+	pointer-events: auto;
+}
+
+.sidenav {
+	background-color: #444;
+	position: fixed;
+	width: 300px;
+	height: 100vh;
+	transform: translateX(-100%);
+	transition: transform 0.2s cubic-bezier(0.8, 0, 0.2, 1);
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.sidenav.active {
+	transform: translateX(0);
+}
+
+.label {
+	color: white;
+	font-size: 16px;
+	background-color: gray;
+	padding: 15px 20px;
+}
+
+.marginTop {
+	margin-top: 40px;
+}
+
+.item {
+	text-transform: capitalize;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 15px 20px;
+	transition: opacity 0.2s cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+.item:hover {
+	opacity: 0.5;
+}

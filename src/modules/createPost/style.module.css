@@ -1,0 +1,58 @@
+.main {
+	width: 65%;
+	margin: auto;
+}
+
+.titleField {
+	margin-top: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+.titleField p {
+	margin-bottom: 3px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+
+.categoryField {
+	margin-top: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+.categoryField p {
+	margin-bottom: 3px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.contentField {
+	margin-top: 10px;
+}
+
+.contentField p {
+	margin-bottom: 3px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+
+.submitBtn {
+	margin-top: 5px;
+	font-size: 15px;
+	float: right;
+}
+
+.input {
+	padding: 10px 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+}
+
+.imgPreview {
+	/* height: 500px; */
+}

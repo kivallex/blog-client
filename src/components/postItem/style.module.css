@@ -1,0 +1,48 @@
+/* css for postItem index.js */
+
+.main {
+}
+
+.wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	border: 1px solid #dcdcdc;
+	padding: 20px;
+}
+
+.contentBox:hover {
+	opacity: 0.5;
+}
+
+.title {
+	font-size: 25px;
+	font-weight: 800;
+	margin: 0;
+}
+
+.date {
+	font-size: 12px;
+	margin: 0;
+	border-bottom: 0.2px solid #dcdcdc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.content {
+	font-size: 16px;
+	margin: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-bottom: 2px;
+}
+
+.picture {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
